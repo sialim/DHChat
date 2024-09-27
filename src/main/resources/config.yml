@@ -1,0 +1,12 @@
+dhchat.default:
+  parts:
+    - line: '%player_name%'
+      command: '/message %player_name%'
+      hover:
+        - '%player_name% info:'
+        - 'Balance: $'
+        - 'Land: Land'
+    - line: ': %message%'
+      command: '/reply %message%'
+      hover:
+        - 'Sent at 3:14:15 9-26'

@@ -1,0 +1,8 @@
+name: DHChat
+version: '${project.version}'
+main: me.sialim.dhchat.DHChat
+api-version: '1.21'
+commands:
+  dhchatreload:
+    description: Reloads config
+    usage: /dhchatreload
